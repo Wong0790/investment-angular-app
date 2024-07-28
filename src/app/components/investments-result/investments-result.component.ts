@@ -5,8 +5,6 @@ import { InvestmentService } from '../../services/investment.service';
 
 @Component({
   selector: 'app-investments-result',
-  standalone: true,
-  imports: [CommonModule],
   templateUrl: './investments-result.component.html',
   styleUrl: './investments-result.component.css',
 })
